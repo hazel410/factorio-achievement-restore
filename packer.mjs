@@ -48,7 +48,7 @@ async function main() {
       break;
   }
   
-  let savegames;
+  var savegames;
   try
   {
     // if save location supported from the switch statement
