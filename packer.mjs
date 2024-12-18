@@ -246,7 +246,7 @@ async function removeCheatFromSavegame() {
             hexBuffer[offset - 11] = 0x00
             changedCount++
           }
-        });silly
+        });
       }
 
       if (changedCount === 0) {
